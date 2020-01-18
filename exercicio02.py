@@ -45,7 +45,7 @@ else:
 
     '''
  ### Trabalhar com condicionais.
-
+'''
 num1 = int(input("Digite o Primeiro numero"))
 num2 = int(input("Digite o segundo numero"))
 
@@ -58,3 +58,68 @@ elif num2 != num1:
     print('Numeros diferentes')
 else:
     print('Numero 2 maior que Numero 1')
+'''
+#condicionais e portas logicas
+'''
+num1 = int(input("Digite o Primeiro numero"))
+num2 = int(input("Digite o segundo numero"))
+
+if num1 > num2:
+    print('Numero 1 maior que Numero 2')
+elif num1 == 10 and num2 == 10:
+    print('Numero restrito')
+else:
+    print('Numero 2 maior que Numero 1')
+
+    '''
+#Exercicios aula 02
+#Escrever um programa onde você entra com 3 notas de 1 há 10
+#e calcula a média dessas notas.
+
+'''
+nota1 = int(input('1 prova '))
+nota2 = int(input('2 prova '))
+nota3 = int(input('3 prova'))
+
+TotalNota = (nota1+nota2+nota3)
+MediaNota = TotalNota/3
+
+print(TotalNota,MediaNota)
+
+Media = (nota1 + nota2 + nota3)/3
+if Media >= 7:
+    print('Aluno aprovado')
+elif Media >= 5:
+    print('em recuperação')
+elif Media >= 6:
+    print('em recuperação')
+else:
+    print('Aluno reprovado')
+
+'''
+
+#Escrever um programa Sinaleira
+#Se escrever verde, retorna em: Passar. 
+#Se escrever amarelo, retorna em : Atenção vai parar.
+#Se escrever vermelho, retorna em: Parar.
+#Se escrever qualquer outra cor, escrever: Isso não é uma cor da sinaleira. 
+
+cor = input('digite cor')
+
+
+#Cores = (cor1,cor2,cor3)
+
+if cor == "verde":
+    print('Pode Passar!')
+elif cor == 'amarelo':
+    print('Vai parar!')
+elif cor == 'vermelho':
+    print('Parar!')
+else:
+    print('Isso não é uma cor da sinaleira')
+
+
+
+
+ 
+
