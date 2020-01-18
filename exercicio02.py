@@ -54,5 +54,7 @@ if num1 > num2:
     print('Numero 1 maior que Numero 2')
 elif num1 == num2:
     print('Numeros Iguais')
+elif num2 != num1:
+    print('Numeros diferentes')
 else:
     print('Numero 2 maior que Numero 1')
