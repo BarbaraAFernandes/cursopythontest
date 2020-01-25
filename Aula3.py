@@ -97,6 +97,28 @@ for multiplicacao in [1,2,3,4,5]:
 
 """
 
+###Funções do Python###
+###Funçoes SEM argumentos###
+"""
+def oi():
+    print("Olá Estou dando OI")
+oi()
+"""
+###Funçoes COM argumentos###
+"""
+def soma(a, b):
+    return  a + b
 
+c= soma(1,3)
+print(c)
+
+"""
+
+### Funçoes COM string e numeros###
+
+def identificacao (meu_nome,idade):
+    print('Olá',meu_nome,'Sua idade é:',idade)
+
+identificacao ("Barbara",22)
 
 
