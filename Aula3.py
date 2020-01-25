@@ -156,11 +156,11 @@ print()
 print('Barbara')
 """
 ###Funçoes Padroes###
-
+"""
 def calcula (a,b=4):
     return a * b
 print(calcula(2))
-
+"""
 ###Funções com condicionais###
 ##Validador de senha##
 """
@@ -178,6 +178,23 @@ print(validausuario("admin","python"))
 
 """
 
+###Função dentro de outra função###
 
+"""
+def soma(a,b):
+    return a + b
+
+def calculo (num1,num2, fun=soma):
+    return fun(num1,num2)
+print(calculo(3,2,))
+"""
+##Podemos usar mais uma função para o calculo, chamado subtração
+
+"""
+def subtracao(num1,num2):
+    return num1 - num2
+
+print(calculo(10,10,subtracao))
+"""
 
 
