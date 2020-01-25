@@ -44,8 +44,17 @@ print(d)
 ### FUNÇOES###
 ###Crie uma algoritmo utilizando funções onde calcule o valor hora ganho de um funcionario
 ###Sendo que o valor hora devera ser um padrão nomeado.
-###E o numero de horas trabalha deverá ser inserido pelo usuário.
+###E o numero de horas trabalhadas deverá ser inserido pelo usuário.
 ###E imprima em tela o total ganho desse funcionário baseado nas horas trabalhadas.
+
+def salario_final():
+    hora = int(input('Quantas horas você trabalhou hoje? '))  
+    valor_hora = 10
+    multiplicar = hora * valor_hora 
+    print(multiplicar)
+    
+salario_final()
+
 
 
 
