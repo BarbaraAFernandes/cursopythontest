@@ -115,10 +115,21 @@ print(c)
 """
 
 ### Funçoes COM string e numeros###
-
+"""
 def identificacao (meu_nome,idade):
     print('Olá',meu_nome,'Sua idade é:',idade)
 
 identificacao ("Barbara",22)
+"""
+
+###Funçoes com argumentos Input###
+
+salario = float(input("Digite seu Salário"))
+
+def salario_descontado_imposto(salario, imposto=27.0):
+    return salario - (salario * imposto * 0.01)
+
+desconto = salario_descontado_imposto(salario)
+print(desconto)
 
 
