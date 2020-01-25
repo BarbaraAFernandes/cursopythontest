@@ -123,7 +123,7 @@ identificacao ("Barbara",22)
 """
 
 ###Funçoes com argumentos Input###
-
+"""
 salario = float(input("Digite seu Salário"))
 
 def salario_descontado_imposto(salario, imposto=27.0):
@@ -131,5 +131,53 @@ def salario_descontado_imposto(salario, imposto=27.0):
 
 desconto = salario_descontado_imposto(salario)
 print(desconto)
+"""
+
+
+""""
+def identificacao(meu_nome,idade):
+    print('Olá',meu_nome,'Sua idade é:',idade)
+
+identificacao(idade=22, meu_nome= "Barbara")
+
+"""
+
+####################
+"""
+def salario_descontado_imposto(salario, imposto=27.0):
+    return salario - (salario * imposto * 0.01)
+
+desconto = salario_descontado_imposto(salario, imposto=10.0)
+print(desconto)
+"""
+###Funçoes padroes###
+"""
+print()
+print('Barbara')
+"""
+###Funçoes Padroes###
+
+def calcula (a,b=4):
+    return a * b
+print(calcula(2))
+
+###Funções com condicionais###
+##Validador de senha##
+"""
+def validausuario(nome_usuario,senha):
+    if nome_usuario == "admin" and senha == "python" :
+        return "Usuário e senha Corretos Bem Vindos"
+    elif nome_usuario == "admin":
+        return "Usuário Correto"
+    elif senha == "python":
+        return "senha correta"
+    else:
+        return "Usuário ou Senha Incorretos"
+
+print(validausuario("admin","python"))
+
+"""
+
+
 
 
