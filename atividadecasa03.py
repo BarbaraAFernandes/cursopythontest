@@ -28,13 +28,13 @@ lista_numeros()
 ## Retorne (return) o valor do primeiro número somado do aumento do percentual do mesmo.
 
 def soma():
-    valores =int(input('Insira um numero'))
-    porcentagem = valores/100*20
+    valores =int(input('Insira um valor'))
+    porcentagem = int(input('Insira uma porcentagem'))
+    porcentagem = valores /100* porcentagem
     print (porcentagem + valores)
 
 soma()
     
-
 
 
 
