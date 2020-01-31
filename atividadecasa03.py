@@ -27,11 +27,16 @@ lista_numeros()
 ##O primeiro é um valor numérico e o segundo um percentual (ex. 10%).
 ## Retorne (return) o valor do primeiro número somado do aumento do percentual do mesmo.
 
-def soma(a, b):
-    return  (a)+ (b /100*10)
+def soma():
+    valores =int(input('Insira um numero'))
+    porcentagem = valores/100*20
+    print (porcentagem + valores)
 
-c= soma(100,50)
-print(c)
+soma()
+    
+
+
+
 
 
 
