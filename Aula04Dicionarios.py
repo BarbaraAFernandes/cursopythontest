@@ -58,5 +58,44 @@ print(n_ruas)
 
 ##REMOVENDO Dados de um dicionario:
 
+"""
 del n_ruas[(1,100)]
 print(n_ruas)
+
+"""
+###Atualizando um dicionario atraves de outro dicionario
+###Sobrescrever o dicionario
+
+"""
+nova_rua = { (201,500) : 'Rua José da Silva'}
+
+n_ruas.update(nova_rua)
+print(n_ruas)
+
+"""
+
+###Extrair informações de dicionários com pop
+### Traz apenas a chave A. (Cada porta tem sua chave)
+
+"""
+frutas_iniciais = {'A': 'Abacate', 'M': 'Melancia', 'L':'Limão','B':'Banana'}
+print(frutas_iniciais)
+
+print(frutas_iniciais.pop('A'))
+
+"""
+###Limpar dados de um dicionário
+
+"""
+frutas_iniciais.clear()
+print(frutas_iniciais)
+
+"""
+
+
+###Podemos copiar um dicionário dentro de outro dicionário utilizando COPY
+
+#novas_ruas = n_ruas.copy()
+novas_ruas = n_ruas
+print(novas_ruas)
+
