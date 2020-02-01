@@ -4,9 +4,12 @@ dicionario = {'chave': 'valor'}
 
 ###EXEMPLO DE DICIONARIOS:
 
+"""
+
 frutas_iniciais = {'A': 'Abacate', 'M': 'Melancia', 'L':'Limão','B':'Banana'}
 print(frutas_iniciais)
 
+"""
 
 ###Trazer uma parte do dicionario
 
@@ -47,4 +50,13 @@ n_ruas = {
 (1,100): 'Rua das Arvores',
 (50,230): 'Rua dos Atletas',
 }
+print(n_ruas)
+
+###ADICIONANDO Dados há um dicionario
+n_ruas[(200,500)] = 'Rua das Camelias'
+print(n_ruas)
+
+##REMOVENDO Dados de um dicionario:
+
+del n_ruas[(1,100)]
 print(n_ruas)

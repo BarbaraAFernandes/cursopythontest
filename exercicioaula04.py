@@ -33,7 +33,7 @@ if "Ariana Grande" in lista_artistas:
     print("Este item está na lista")
 else:
     print("Esse item não está na lista")
-    
+
 
 
 
