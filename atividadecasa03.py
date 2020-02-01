@@ -30,11 +30,11 @@ lista_numeros()
 def soma():
     valores =int(input('Insira um valor'))
     porcentagem = int(input('Insira uma porcentagem'))
-    porcentagem = valores /100* porcentagem
-    print (porcentagem + valores)
+    porcentagem_dois= valores /100* porcentagem
+    print (porcentagem_dois+ valores)
 
 soma()
-    
+
 
 
 
